@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "rc-slider": "^10.1.1",
+    "react-slider": "^2.0.4"
+  }
+}

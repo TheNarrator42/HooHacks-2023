@@ -1,0 +1,48 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .horizontal-slider {
+    width: 100%;
+    max-width: 500px;
+    height: 100vh;
+    margin: auto;
+  }
+  
+  .thumb {
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+    background: #ffffff;
+    border: 5px solid #0062ff;
+    border-radius: 100%;
+    display: block;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 44%);
+  }
+  
+  .thumb.active {
+    background-color: rgb(128, 128, 128);
+  }
+  
+  .track {
+    position: relative;
+    background: #ddd;
+  }
+  
+  .track.track-0 {
+    background: #000000;
+  }
+  
+  .horizontal-slider .track {
+    top: 20px;
+    height: 4px;
+  }
+  
+  .horizontal-slider .thumb {
+    top: 12px;
+    width: 10px;
+    outline: none;
+    height: 10px;
+    line-height: 38px;
+  }
